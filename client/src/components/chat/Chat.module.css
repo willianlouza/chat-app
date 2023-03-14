@@ -1,0 +1,17 @@
+.chat_container {
+  height: 20rem;
+  width: 20rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.chat {
+  height: 100%;
+  background-color: white;
+}
+
+.chat_container::-webkit-scrollbar {
+  width: 0px;
+}
